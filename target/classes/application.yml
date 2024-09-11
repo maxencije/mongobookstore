@@ -1,0 +1,12 @@
+spring :
+  application:
+    name: mongobookstore
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: bookstore
+      username: book
+      password: book
+      authentication-database: admin
